@@ -369,8 +369,8 @@ def main():
 
     original_width = 7402
     original_height = 4384
-    scale_factor = 0.6
-    image = Image('../Results/TruncatedSVD.png')#, width=new_width, height=new_height)
+    scale_factor = 0.8
+    image = Image('../Results/TruncatedSVD.png', width=new_width, height=new_height)
 
     story.append(image)
     story.append(Spacer(1, 12))    
